@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gutcodes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gutcodes</h1>
+        <p>Revolutionizing the way you use discount codes</p>
+    </header>
+    <main>
+        <section id="intro">
+            <h2>How It Works</h2>
+            <p>Gutcodes makes it easy for customers to access exclusive discounts by scanning QR codes. Here's how:</p>
+            <ol>
+                <li>Scan the advertisement QR code to visit our website.</li>
+                <li>Receive a blurred QR code.</li>
+                <li>Visit a partner store and scan the store QR code to reveal your gift code.</li>
+                <li>Use the gift QR code for your purchase and enjoy your discount!</li>
+            </ol>
+        </section>
+        <section id="ad-qr" class="step">
+            <h3>Step 1: Advertisement QR Code</h3>
+            <p>Scan this QR code from the advertisement to visit our website:</p>
+            <img id="ad-qr-code" src="ad-qr-code.png" alt="Advertisement QR Code">
+        </section>
+        <section id="blurred-qr" class="step hidden">
+            <h3>Step 2: Blurred QR Code</h3>
+            <p>Scan the QR code in the store to reveal your gift code:</p>
+            <img id="qr-code" src="blurred-qr-code.png" alt="Blurred QR Code">
+        </section>
+        <section id="store-qr" class="step hidden">
+            <h3>Step 3: Store QR Code</h3>
+            <p>Scan this QR code in the store:</p>
+            <img id="store-qr-code" src="store-qr-code.png" alt="Store QR Code">
+        </section>
+        <section id="gift-qr" class="step hidden">
+            <h3>Step 4: Gift QR Code</h3>
+            <p>Here is your gift QR code:</p>
+            <img id="gift-qr-code" src="gift-qr-code.png" alt="Gift QR Code">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Gutcodes. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
